@@ -5,6 +5,7 @@ with open(filename) as file_object:
         join_pi+=line.strip().replace(' ','')
     print(join_pi)
     print(f'该文件一共{len(join_pi)}位')
+    print('结束了')
 
 
 
