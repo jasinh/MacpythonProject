@@ -5,3 +5,7 @@ with open(write_filename,'w') as file_object:
 with open(write_filename) as file_object:
     for line in file_object:
         print(line.strip())
+
+
+
+
